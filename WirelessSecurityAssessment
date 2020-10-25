@@ -9,3 +9,18 @@ Evaluating strength of PSK
 Reviewing nearby networks
 Assessing guest networks
 Checking network access
+
+Hacking Process for WPA2-PSK (Pre-Shared Key)
+1) Place
+Place your wireless card into monitor/promiscious mode
+2) Discover
+Discover information about network (Channel, BSSID)
+3) Select
+Select network and start capturing data
+4) Perform
+Perform deauthentication attack
+5) Capture
+Capture WPA handshake
+6) Attempting crack
+Attempt to crack handshake
+
