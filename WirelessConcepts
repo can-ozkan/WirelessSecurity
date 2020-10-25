@@ -1,5 +1,18 @@
 SSID
+-----
 Length : Max 32 chars
 Case-sensitive
 Special characters are allowed.
 SSID value identifies the device, person or organisation.
+
+Authentication Process
+---------------------
+AP broadcasts beacon frames in order to introduce itself.
+1) Client -> AP, Probe Request
+2) AP -> Client, Probe Response
+3) Client -> AP, Authentication Request
+4) AP -> Client, Authentication Response
+5) Client -> AP, Association Request
+6) AP -> Client, Association Response
+
+
