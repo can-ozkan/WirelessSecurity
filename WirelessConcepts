@@ -7,7 +7,7 @@ SSID value identifies the device, person or organisation.
 
 Authentication Process
 ---------------------
-AP broadcasts beacon frames in order to introduce itself.
+AP broadcasts beacon frames in order to introduce itself. Beacon frames' destination address is broadcast. (ff:ff:ff:ff:ff:ff) Source address is the address of the AP.
 1) Client -> AP, Probe Request
 2) AP -> Client, Probe Response
 3) Client -> AP, Authentication Request
