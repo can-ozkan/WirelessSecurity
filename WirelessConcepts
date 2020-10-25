@@ -10,9 +10,9 @@ Authentication Process
 AP broadcasts beacon frames in order to introduce itself. Beacon frames' destination address is broadcast. (ff:ff:ff:ff:ff:ff) 
 Source address is the address of the AP itself.
 
-1) Client -> AP, Probe Request
-2) AP -> Client, Probe Response
-3) Client -> AP, Authentication Request
+1) Client -> AP, Probe Request (Where is that SSID)
+2) AP -> Client, Probe Response (Well, I'm here)
+3) Client -> AP, Authentication Request 
 4) AP -> Client, Authentication Response
 5) Client -> AP, Association Request
 6) AP -> Client, Association Response
