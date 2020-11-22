@@ -45,4 +45,23 @@ It is the first wireless technology standard
 It is applied to both Layer1 and Layer2 in OSI layer
 Problem : Wireless networks can't detect collisions. CSMA/CS (collision avoidance) is used instead of CSMA/CD
 
+802.11a
+-------
+802.11a, created in 1999, operates frequency 5GHz 
+Throughput 54 Mbps
+
+802.11b 
+-------
+Operates in the 2.4 GHz
+Throughput 11 Mbps
+Also referred to as WiFi
+Allows for 11 channels to prevent overlapping signals. However, only three channels (1, 6 and 11) can be used in combination without overlapping
+Introduced in WEP (Wired Equivalent Privacy)
+
+802.11e
+802.11g
+802.11i
+802.11n
+802.11ac
+
 
