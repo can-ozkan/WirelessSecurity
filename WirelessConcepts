@@ -89,6 +89,10 @@ EAP is an enhancement to PPP
 Allows a company to select its authentication method like Certificates, Kerberos
 Kerberos is used on LANs for authentication. It uses tickets and keys. Not common on WLANs
 
-
+802.1X Components
+-----------------
+Supplicant : The user accessing a WLAN
+Authenticator : The AP
+Authentication Server : Checks an account database to see if user's credentials are acceptable. May use RADIUS
 
 
