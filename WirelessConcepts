@@ -1,5 +1,9 @@
 SSID
 -----
+It is a name used to identify the wireless local area network (WLAN)
+The SSID is configured on the AP
+The AP usually broadcasts the associated SSID
+SSID is transmitted with each packet
 Length : Max 32 chars
 Case-sensitive
 Special characters are allowed.
@@ -16,5 +20,17 @@ Source address is the address of the AP itself.
 4) AP -> Client, Authentication Response
 5) Client -> AP, Association Request
 6) AP -> Client, Association Response
+
+A wireless network has three basic components : Access Point (AP), Wireless Network Interface Card (WNIC) and Ethernet Cable
+
+Access Points(AP)
+-----------------
+An AP is a transceiver that connects to an Ethernet cable. It bridges the wireless network with the wired network. However, not all wireless networks connect to a 
+wired network. Most companies have Wireless LANs (WLANs) that connect to their wired network topology. The AP is where channels are configured. An AP enables 
+users to connect to a LAN using wireless technology.
+
+Wireless Router
+---------------
+A wireless router includes an access point, a router and a switch
 
 
