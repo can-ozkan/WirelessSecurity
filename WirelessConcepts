@@ -95,4 +95,30 @@ Supplicant : The user accessing a WLAN
 Authenticator : The AP
 Authentication Server : Checks an account database to see if user's credentials are acceptable. May use RADIUS
 
+Wired Equivalent Privacy (WEP)
+------------------------------
+Part of the 802.11b standard
+Encrypts data on a wireless network
+WEP has many vulnerabilities
 
+WiFi Protected Access (WPA)
+---------------------------
+Specified in the 802.11i standard
+Replaces WEP
+WPA improves encryption by using Temporal Key Integrity Protocol (TKIP)
+
+TKIP Enhancements
+-----------------
+Message Integrity Checks (MIC) prevents attacker from injecting forged packets
+Extended Initialization Vector (IV) with sequencing rules. It prevents replay attacks 
+
+WiFi Protected Access 2 (WPA2)
+------------------------------
+WPA2 implements the full 802.11i security standard, using CCMP
+
+Pre-Shared Key vs 802.1X 
+------------------------
+Both WPA and WPA2 can run in either mode 
+Pre Shared Key uses a passphrase the user types into each device. It is less secure because the user might choose a guessable passphrase and all devices on the WLAN
+use the same passphrase
+802.1X uses a server to manage keys. Each user has a different key
