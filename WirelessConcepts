@@ -64,4 +64,31 @@ Introduced in WEP (Wired Equivalent Privacy)
 802.11n
 802.11ac
 
+Authentication
+--------------
+The 802.1X Standard
+-------------------
+This standard defines the process of authenticating and authorizing users on a WLAN
+Point-to-Point Protocol (PPP), Extensible Authentication protocol (EAP), Wired Equivalent Privacy (WEP), WiFi Protected Access (WPA)
+
+Point-to-Point Protocol (PPP)
+-----------------------------
+Many ISPs use PPP to connect dial-up or DSL users
+PPP handles authentication with a username and password pair, sent with PAP or CHAP
+Password Authentication Protocol (PAP) sends passwords unencrypted, which is vulnerable to sniffing attacks
+
+CHAP (Challenge Handshake Authentication Protocol) Vulnerability
+-----------------------------------------------------------------
+Server sends a challenge (a random value)
+Client sends a response, hashing the random value with the secret password
+This is vulnerable to sesion hijacking (some kind of pass the hash)
+
+Extensible Authentication Protocol (EAP)
+----------------------------------------
+EAP is an enhancement to PPP
+Allows a company to select its authentication method like Certificates, Kerberos
+Kerberos is used on LANs for authentication. It uses tickets and keys. Not common on WLANs
+
+
+
 
