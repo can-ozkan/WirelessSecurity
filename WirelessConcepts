@@ -33,4 +33,16 @@ Wireless Router
 ---------------
 A wireless router includes an access point, a router and a switch
 
+Wireless NICs (Network Interface Cards)
+---------------------------------------
+To be able to use wireless technology, each node or computer must have a wireless NIC
+NIC's main objective is to convert radio waves it receives into digital signals that the computer can understand
+Cracking WEP requires NICs that can use monitor mode or perform packet injection
+
+The 802.11 Standard
+-------------------
+It is the first wireless technology standard
+It is applied to both Layer1 and Layer2 in OSI layer
+Problem : Wireless networks can't detect collisions. CSMA/CS (collision avoidance) is used instead of CSMA/CD
+
 
